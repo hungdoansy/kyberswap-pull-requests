@@ -7,7 +7,7 @@
         "pnpm": "^7.0.0"
     },
     "scripts": {
-        "dev": "vite --open",
+        "dev": "vite --open --host --port 3008",
         "build": "tsc && vite build",
         "preview": "vite preview",
         "lint": "eslint .",
