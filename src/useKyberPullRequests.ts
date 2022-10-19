@@ -43,7 +43,7 @@ const useKyberPullRequests = () => {
         }
 
         runner()
-        intervalRef.current = setInterval(runner, 60_000)
+        intervalRef.current = setInterval(runner, 300_000)
 
         return () => {
             clearInterval(intervalRef.current)
